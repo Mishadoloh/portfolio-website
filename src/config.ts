@@ -1,0 +1,147 @@
+export const config = {
+    developer: {
+        name: "Mikhyailo",
+        fullName: "Mikhyailo Doloh",
+        title: "Frontend Developer",
+        description: "Frontend Developer with hands-on experience in building scalable web applications using React and TypeScript. Expert in creating responsive user interfaces and managing complex application states."
+    },
+    social: {
+        github: "Mishadoloh",
+        email: "dologmihajlo31@gmail.com",
+        location: "Sobenov, Czech Republic"
+    },
+    about: {
+        title: "About Me",
+        description: "Frontend Developer with hands-on experience in building scalable web applications using React and TypeScript. Expert in creating responsive user interfaces, managing complex application states with Redux Toolkit, and ensuring high code quality through Jest and Cypress testing. Highly proficient in modern JavaScript (ES6+) and CSS architectures (Sass/SCSS, BEM). Upper-Intermediate English speaker with strong problem-solving abilities and a track record of 158+ solved katas on CodeWars."
+    },
+    experiences: [
+        {
+            position: "Frontend Developer",
+            company: "AppFlow Solutions",
+            period: "Apr 2024 – Present",
+            location: "Czech Republic (Remote)",
+            description: "Led frontend development for a high-traffic SaaS dashboard. Architected modular component systems, optimized app bundle sizes, and streamlined global state structures.",
+            responsibilities: [
+                "Designed and built scalable React/TypeScript components, reducing rendering latency by 35% using virtualization and custom memoization hooks.",
+                "Architected global state management with Redux Toolkit and integrated RTK Query for efficient server data caching and network overhead reduction.",
+                "Developed and maintained a reusable, accessible UI component library using Tailwind CSS and Radix UI primitives.",
+                "Authored unit and E2E test suites (Jest, Cypress) achieving over 85% code coverage to ensure bug-free releases.",
+                "Established automated CI/CD workflow checks (GitHub Actions, ESLint, Prettier) to enforce code style consistency.",
+                "Integrated real-time updates via WebSockets for dynamic charts and live analytical panels."
+            ],
+            technologies: ["React", "TypeScript", "Redux Toolkit", "RTK Query", "Tailwind CSS", "Jest", "Cypress", "WebSockets", "Vite"]
+        },
+        {
+            position: "Frontend Developer",
+            company: "SynergyTech (Contract)",
+            period: "Jan 2023 – Apr 2024",
+            location: "Czech Republic (Remote)",
+            description: "Developed responsive web portals and integrated web services. Built core functional modules and resolved layout performance bottlenecks.",
+            responsibilities: [
+                "Converted high-fidelity Figma mockups into responsive, cross-browser compatible layouts using Sass (SCSS) and Material UI.",
+                "Integrated RESTful APIs and handled complex asynchronous operations using RxJS and promise chains.",
+                "Optimized application load times through code-splitting, lazy loading, and efficient component architecture.",
+                "Followed Git Flow methodology and active participation in code reviews to maintain code quality standards."
+            ],
+            technologies: ["React", "TypeScript", "Material UI", "Sass (SCSS)", "RxJS", "REST API", "Git Flow", "Figma"]
+        },
+        {
+            position: "Frontend Developer",
+            company: "WebCode Agency",
+            period: "Jan 2022 – Dec 2022",
+            location: "Czech Republic (Remote)",
+            description: "Created responsive websites, e-commerce landing pages, and interactive UI widgets. Focused on cross-browser compatibility and semantic HTML/CSS structures.",
+            responsibilities: [
+                "Developed modular, semantic web layouts using modern JavaScript, HTML5, and CSS3/Sass (SCSS).",
+                "Handled cross-browser responsiveness and accessibility standards (WCAG).",
+                "Integrated third-party REST APIs and payment gateways.",
+                "Optimized site speed and asset loading times by 20% through asset minification and image optimization."
+            ],
+            technologies: ["JavaScript (ES6+)", "React", "HTML5", "CSS3", "Sass (SCSS)", "BEM", "REST API", "Git", "Webpack"]
+        },
+        {
+            position: "Frontend Developer (Internship)",
+            company: "PixelCraft Studio",
+            period: "Jun 2021 – Dec 2021",
+            location: "Czech Republic (Remote)",
+            description: "Assisted in building static and dynamic web interfaces. Developed reusable components and participated in core agile sprint cycles.",
+            responsibilities: [
+                "Assisted in coding frontend modules using HTML, CSS, JavaScript, and Bootstrap.",
+                "Developed reusable components and fixed UI bugs under senior developer supervision.",
+                "Collaborated with UI/UX designers to translate requirements into prototype layouts."
+            ],
+            technologies: ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "Git", "Figma"]
+        }
+    ],
+    projects: [
+        {
+            id: 1,
+            title: "NovaChess",
+            category: "Game / AI Engine",
+            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
+            image: "/images/novachess.png",
+            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation.",
+            github: "https://github.com/Mishadoloh/novachess"
+        },
+        {
+            id: 2,
+            title: "JS 2048 Game",
+            category: "Game Development",
+            technologies: "JavaScript (ES6+), HTML5, CSS3 Grid/Flexbox, LocalStorage",
+            image: "/images/project_2048.png",
+            description: "An interactive, browser-based clone of the classic 2048 puzzle game. Features smooth tile sliding transitions, high score tracking via LocalStorage, keyboard controls, and a responsive layout.",
+            github: "https://github.com/Mishadoloh/js_2048_game"
+        },
+        {
+            id: 3,
+            title: "Phone Catalog",
+            category: "E-Commerce Web App",
+            technologies: "React, TypeScript, Redux Toolkit, Sass (SCSS), BEM, REST API",
+            image: "/images/project_phone_catalog.png",
+            description: "A modern React & TypeScript product catalog. Features comprehensive product filtering and sorting, dynamic search, a fully functional shopping cart and favorites list, and responsive layouts.",
+            github: "https://github.com/Mishadoloh/react_phone-catalog"
+        },
+        {
+            id: 4,
+            title: "Layout Landing Page",
+            category: "Web Interface Layout",
+            technologies: "HTML5, CSS3, Sass (SCSS), BEM, JavaScript, Gulp",
+            image: "/images/project_landing_page.png",
+            description: "A pixel-perfect, fully responsive landing page layout. Developed adhering to semantic HTML5 standards and SCSS organized according to BEM methodology for maintainable code.",
+            link: "https://mishadoloh.github.io/layout_landing-page/"
+        },
+        {
+            id: 5,
+            title: "Helper Blackout",
+            category: "Utility Tool",
+            technologies: "React, TypeScript, CSS Variables, LocalStorage, Progressive Web App",
+            image: "/images/project_helper_blackout.png",
+            description: "A specialized utility tool designed to help users calculate battery backup runtimes, plan household electricity consumption schedules, and prepare for scheduled blackout events.",
+            github: "https://github.com/Mishadoloh/helperBlekaut/"
+        }
+    ],
+    contact: {
+        email: "dologmihajlo31@gmail.com",
+        github: "https://github.com/Mishadoloh",
+        linkedin: "https://www.linkedin.com/in/mykhailo-doloh-5829a9409",
+        twitter: "https://x.com/Mishadoloh",
+        facebook: "https://facebook.com/Mishadoloh",
+        instagram: "https://instagram.com/Mishadoloh"
+    },
+    skills: {
+        develop: {
+            title: "FRONTEND DEVELOPMENT",
+            description: "Languages & Frameworks",
+            details: "Highly proficient in React, Redux Toolkit, Angular, HTML5, CSS3, Sass (SCSS), BEM, RxJS, and Tailwind CSS. Solid understanding of basic C/C++/C#.",
+            tools: ["JavaScript", "TypeScript", "React", "Redux Toolkit", "Angular", "HTML5", "CSS3", "Sass (SCSS)", "Tailwind CSS", "RxJS", "Material UI", "BEM"]
+        },
+        design: {
+            title: "TESTING & TOOLS",
+            description: "QA & Environments",
+            details: "Ensuring high code quality through unit testing with Jest and E2E testing with Cypress. Proficient with modern tooling, Git Flow, and REST/WebSocket APIs.",
+            tools: ["Jest", "Cypress", "Git Flow", "Vite", "Webpack", "Docker", "Node.js", "Express", "PostgreSQL", "REST API", "WebSockets", "Figma"]
+        }
+    }
+};
+
+
